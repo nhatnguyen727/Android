@@ -13,13 +13,12 @@ public class EngVoca  extends AppCompatActivity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.linear);
+        setContentView(R.layout.activity_main);
         init();
     }
     void init(){
         // Event when click on next button
-        // Event when click on next button
-        next = findViewById(R.id.button2);
+        next = findViewById(R.id.next);
         next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
