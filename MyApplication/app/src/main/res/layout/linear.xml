@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".EngVoca">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="English Vocabulary"
+        android:textSize="30sp"
+        android:textColor="#FFFFFF"
+        android:background="#0099FF"/>
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="342dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:src="@drawable/en"
+        android:text="English Vocabulary"
+        ></ImageView>
+    <Button
+        android:id="@+id/button_learn"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:text="LEARN"></Button>
+    <Button
+        android:id="@+id/button_practice"
+        android:layout_width="200dip"
+        android:layout_height="50dip"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:text="PRACTICE"></Button>
+    <Button
+        android:id="@+id/button_test"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:text="TEST"></Button>
+    <Button
+        android:id="@+id/next"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:text="NEXT"></Button>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right">
+
+        <ImageView android:id="@+id/image2"
+            android:layout_width="70dp"
+            android:layout_height="70dip"
+            android:layout_marginTop="68dp"
+            android:gravity="center_horizontal"
+            android:src="@drawable/internet"
+            ></ImageView>
+        <ImageView android:id="@+id/image3"
+            android:layout_width="70dp"
+            android:layout_height="70dip"
+            android:layout_marginTop="68dp"
+            android:src="@drawable/star"
+
+            />
+        <ImageView android:id="@+id/image4"
+            android:layout_width="70dp"
+            android:layout_height="70dip"
+            android:layout_marginTop="68dp"
+            android:src="@drawable/setting"
+            />
+    </LinearLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
